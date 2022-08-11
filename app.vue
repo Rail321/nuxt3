@@ -1,79 +1,58 @@
 <template>
-  <div>
-    <div class="px-1">
-      <div class="row mx-n1 mb-1">
-        <div class="col px-1">
-          <div class="bg-mediumseagreen p-1">
-            <div class="bg-black h-3"></div>
-          </div>
+  <div class="bg-ghostwhite">
+    <div class="row">
+      <div class="col-1">
+        <div class="min-vh-100 h-100 top-0 position-sticky p-2 bg-midnightblue">
+          <div class="h-4 mb-2 bg-white"></div>
+          <div class="h-4 mb-2 bg-white"></div>
+          <div class="h-4 mb-2 bg-white"></div>
+          <div class="h-4 mb-2 bg-white"></div>
+          <div class="h-4 mb-2 bg-white"></div>
+          <div class="h-4 mb-2 bg-white"></div>
+          <div class="h-4 mb-2 bg-white"></div>
+          <div class="h-4 mb-2 bg-white"></div>
+          <div class="h-4 mb-2 bg-white"></div>
+          <div class="h-4 mb-2 bg-white"></div>
+          <div class="h-4 mb-2 bg-white"></div>
+          <div class="h-4 mb-2 bg-white"></div>
+          <div class="h-4 mb-2 bg-white"></div>
+          <div class="h-4 mb-2 bg-white"></div>
+          <div class="h-4 mb-2 bg-white"></div>
+          <div class="h-4 mb-2 bg-white"></div>
+          <div class="h-4 mb-2 bg-white"></div>
+          <div class="h-4 bg-white"></div>
         </div>
       </div>
-      
-      <div class="row mx-n1 mb-1">
-        <div class="col px-1">
-          <div class="bg-mediumseagreen p-1">
-            <div class="bg-black h-3" style="width: calc(100% + 5px);"></div>
-          </div>
-        </div>
-      </div>
-      
-      <div class="row mx-n1 mb-1">
-        <div class="col px-1">
-          <div class="bg-mediumseagreen p-1">
-            <div class="bg-black h-3" style="width: 110%;"></div>
-          </div>
-        </div>
-        <div class="col-5 px-1">
-          <div class="bg-mediumseagreen p-1">
-            <div class="bg-black h-3"></div>
-          </div>
-        </div>
-      </div>
-      
-      <div class="row mx-n1 mb-1">
-        <div class="col-5 px-1">
-          <div class="bg-mediumseagreen p-1">
-            <div class="bg-black h-3"></div>
-          </div>
-        </div>
-        <div class="col-5 px-1">
-          <div class="bg-mediumseagreen p-1">
-            <div class="bg-black h-3"></div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row mx-n1 mb-1">
-        <div class="col-1 px-1">
-          <div class="bg-mediumseagreen p-1">
-            <div class="bg-black h-3"></div>
-          </div>
-        </div>
-        <div class="col-5 px-1">
-          <div class="bg-mediumseagreen p-1">
-            <div class="bg-black h-3"></div>
-          </div>
-        </div>
-      </div>
-      
-      <div class="row mx-n1 mb-1">
-        <div class="col-1 px-1">
-          <div class="bg-mediumseagreen p-1">
-            <div class="bg-black h-3" style="width: 110%;"></div>
-          </div>
-        </div>
-        <div class="col-5 px-1">
-          <div class="bg-mediumseagreen p-1">
-            <div class="bg-black h-3"></div>
-          </div>
-        </div>
-      </div>
-      
-      <div class="row mx-n1 mb-1">
-        <div class="col-1 px-1">
-          <div class="bg-mediumseagreen p-1">
-            <div class="bg-black h-3" style="width: 110%;"></div>
-          </div>
+      <div class="col-5">
+        <div class="min-vh-100 p-2">
+          <div class="w-25 h-4 mb-2 bg-black"></div>
+          <div class="h-4 mb-2 bg-black"></div>
+          <div class="h-4 mb-2 bg-black"></div>
+          <div class="h-4 mb-4 bg-black"></div>
+          
+          <div class="w-25 h-4 mb-2 bg-black"></div>
+          <div class="h-4 mb-4 bg-black"></div>
+          
+          <div class="w-25 h-4 mb-2 bg-black"></div>
+          <div class="h-4 mb-2 bg-black"></div>
+          <div class="h-4 mb-2 bg-black"></div>
+          <div class="h-4 mb-2 bg-black"></div>
+          <div class="h-4 mb-2 bg-black"></div>
+          <div class="h-4 mb-2 bg-black"></div>
+          <div class="h-4 mb-4 bg-black"></div>
+          
+          <div class="w-25 h-4 mb-2 bg-black"></div>
+          <div class="h-4 mb-2 bg-black"></div>
+          <div class="h-4 mb-2 bg-black"></div>
+          <div class="h-4 mb-4 bg-black"></div>
+          
+          <div class="w-25 h-4 mb-2 bg-black"></div>
+          <div class="h-4 mb-2 bg-black"></div>
+          <div class="h-4 mb-2 bg-black"></div>
+          <div class="h-4 mb-2 bg-black"></div>
+          <div class="h-4 mb-2 bg-black"></div>
+          <div class="h-4 mb-2 bg-black"></div>
+          <div class="h-4 mb-4 bg-black"></div>
         </div>
       </div>
     </div>
@@ -83,30 +62,46 @@
 <style>
   @import "@/modules/style";
 
-  .bg-mediumseagreen {
-    background-color: mediumseagreen;
+  .bg-ghostwhite {
+    background-color: ghostwhite;
+  }
+  .bg-midnightblue {
+    background-color: midnightblue;
+  }
+  .bg-white {
+    background-color: white;
   }
   .bg-black {
     background-color: black;
   }
 
-  .mx-n1 {
-    margin-left: -5px;
-    margin-right: -5px;
+  .mb-2 {
+    margin-bottom: 10px;
   }
-  .mb-1 {
-    margin-bottom: 5px;
-  }
-
-  .p-1 {
-    padding: 5px;
-  }
-  .px-1 {
-    padding-left: 5px;
-    padding-right: 5px;
+  .mb-4 {
+    margin-bottom: 20px;
   }
 
-  .h-3 {
-    height: 15px;
+  .p-2 {
+    padding: 10px;
+  }
+
+  .w-25 {
+    width: 25%;
+  }
+
+  .h-4 {
+    height: 20px;
+  }
+  .h-100 {
+    height: 100%;
+  }
+
+  .top-0 {
+    top: 0;
+  }
+
+  .position-sticky {
+    position: sticky;
   }
 </style>
